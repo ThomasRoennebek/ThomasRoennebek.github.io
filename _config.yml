@@ -18,7 +18,7 @@ email: your_email@example.com
 description: >-
   A data-story exploring crime trends in San Francisco through visual storytelling.
 minimal_mistakes_skin: dark
-search: true
+search: false  # 🔧 Disable search icon
 
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -46,16 +46,10 @@ plugins:
 author:
   name   : "Group 47"
   bio    : "Social data analysis and visualization"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/thomasroennebek"
+  links: []  # 🔧 Removes sidebar links entirely
 
 footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/thomasroennebek"
+  links: []  # 🔧 Removes footer icons
 
 defaults:
   - scope:
@@ -63,8 +57,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
+      author_profile: false  # 🔧 Hide profile box on posts (even though you're not using posts)
+      read_time: false
       comments: false
       share: false
       related: false
@@ -74,7 +68,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false  # 🔧 Hide sidebar profile for clean look
       classes: wide
 
 category_archive:
