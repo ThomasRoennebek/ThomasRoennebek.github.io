@@ -50,9 +50,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/thomasroennebek"
-    - label: "Project Repo"
-      icon: "fas fa-fw fa-code"
-      url: "https://github.com/thomasroennebek/sf-crime-story"
 
 footer:
   links:
@@ -69,7 +66,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: false
-      share: true
+      share: false
       related: false
       classes: wide
   - scope:
