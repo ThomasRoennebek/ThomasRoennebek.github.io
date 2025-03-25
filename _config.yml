@@ -44,16 +44,12 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Thomas Rønnebek"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Business Analytics student telling stories through data. 🚀"
+  name   : "Group 47"
+  bio    : "Social data analysis and visualization"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/thomasroennebek"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/thomasroennebek"
     - label: "Project Repo"
       icon: "fas fa-fw fa-code"
       url: "https://github.com/thomasroennebek/sf-crime-story"
@@ -63,9 +59,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/thomasroennebek"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/thomasroennebek"
 
 defaults:
   - scope:
