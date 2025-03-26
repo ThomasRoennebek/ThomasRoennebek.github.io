@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Assignment 2 - SF Crime Data Story
+title: Assignment 2 - SF Crime Data Story test
 email: your_email@example.com
 description: >-
   A data-story exploring crime trends in San Francisco through visual storytelling.
